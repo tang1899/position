@@ -1,0 +1,26 @@
+{
+  "name": "泉州路口监控",
+  "short_name": "路口监控",
+  "description": "泉州鲤城丰泽路网与路口监控点位管理",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F1EBDF",
+  "theme_color": "#14161A",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

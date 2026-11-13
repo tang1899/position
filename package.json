@@ -1,0 +1,33 @@
+{
+  "name": "quanzhou-road-monitor",
+  "version": "1.0.0",
+  "description": "泉州路网与路口监控点位管理 PWA",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "homepage": "https://tang1899.github.io/position/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tang1899/position.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "pinia": "^4.0.2",
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vitejs/plugin-vue-jsx": "^5.1.6",
+    "vite": "^8.1.5",
+    "vite-plugin-vue-devtools": "^8.1.5"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}

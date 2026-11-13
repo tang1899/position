@@ -1,0 +1,94 @@
+{
+  "source": "demo",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "total": {
+    "intersections": 8,
+    "cameras": 12
+  },
+  "intersections": [
+    {
+      "id": "demo-a",
+      "name": "示例点位 A",
+      "roads": "示范大道 × 演示街",
+      "lng": 118.5862,
+      "lat": 24.9051,
+      "cameras": [
+        { "scene": "示例交通相机 A1", "type": "traffic", "dir": "东向", "bearing": 90 },
+        { "scene": "示例联动快球 A2", "type": "ptz", "dir": "西向", "bearing": 270 }
+      ]
+    },
+    {
+      "id": "demo-b",
+      "name": "示例点位 B",
+      "roads": "演示路 × 样例街",
+      "lng": 118.6034,
+      "lat": 24.9032,
+      "cameras": [
+        { "scene": "示例交通相机 B1", "type": "traffic", "dir": "南向", "bearing": 180 }
+      ]
+    },
+    {
+      "id": "demo-c",
+      "name": "示例点位 C",
+      "roads": "样例大道 × 示范路",
+      "lng": 118.6152,
+      "lat": 24.8974,
+      "cameras": [
+        { "scene": "示例交通相机 C1", "type": "traffic", "dir": "北向", "bearing": 0 },
+        { "scene": "示例联动快球 C2", "type": "ptz", "dir": "东南向", "bearing": 135 }
+      ]
+    },
+    {
+      "id": "demo-d",
+      "name": "示例点位 D",
+      "roads": "演示街 × 样例路",
+      "lng": 118.6071,
+      "lat": 24.8912,
+      "cameras": [
+        { "scene": "示例交通相机 D1", "type": "traffic", "dir": "西向", "bearing": 270 }
+      ]
+    },
+    {
+      "id": "demo-e",
+      "name": "示例点位 E",
+      "roads": "示范路 × 演示大道",
+      "lng": 118.5963,
+      "lat": 24.8864,
+      "cameras": [
+        { "scene": "示例交通相机 E1", "type": "traffic", "dir": "东向", "bearing": 90 },
+        { "scene": "示例联动快球 E2", "type": "ptz", "dir": "南向", "bearing": 180 }
+      ]
+    },
+    {
+      "id": "demo-f",
+      "name": "示例点位 F",
+      "roads": "样例街 × 示范大道",
+      "lng": 118.5884,
+      "lat": 24.8923,
+      "cameras": [
+        { "scene": "示例交通相机 F1", "type": "traffic", "dir": "北向", "bearing": 0 }
+      ]
+    },
+    {
+      "id": "demo-g",
+      "name": "示例点位 G",
+      "roads": "演示大道 × 样例街",
+      "lng": 118.5941,
+      "lat": 24.8992,
+      "cameras": [
+        { "scene": "示例联动快球 G1", "type": "ptz", "dir": "西南向", "bearing": 225 }
+      ]
+    },
+    {
+      "id": "demo-h",
+      "name": "示例点位 H",
+      "roads": "示范街 × 演示路",
+      "lng": 118.6123,
+      "lat": 24.8841,
+      "cameras": [
+        { "scene": "示例交通相机 H1", "type": "traffic", "dir": "西北向", "bearing": 315 },
+        { "scene": "示例联动快球 H2", "type": "ptz", "dir": "东向", "bearing": 90 }
+      ]
+    }
+  ]
+}
